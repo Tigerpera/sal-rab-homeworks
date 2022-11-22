@@ -10,7 +10,7 @@ let message;
     message += ' ';
     message += productPrice;
     message += ' ';
-    message += 'теперь в корзине'
+    message += 'теперь в корзине!'
 
 console.log(message)
 
@@ -41,7 +41,7 @@ function addInCartSumChange(sum, delta) {
 
     // Задание №1.3. Увеличение суммы в корзине
     let newSum = oldSum + difference;
-    let newSumText = newSum + ' ₽';
+    let newSumText = `${newSum} ₽`;
        
 
     // создайте переменную newSum и присвойте ей сумму oldSum и difference
